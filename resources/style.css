@@ -1,0 +1,113 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2018, 3:14:04 PM
+    Author     : Norm
+*/
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+#title-container {
+    background-image: url("../images/Image1.jpg");
+    background-color: lightgray;
+    background-position: bottom center;
+    background-size: cover;
+    height: 400px;
+    width: 80%;
+    text-align: center;
+    border: 5px;
+    border-color: black;
+    margin: 50px;
+    z-index: 1;
+}
+
+#inner-box {
+    position: relative;
+/*    height 25px;
+    width: 100px;*/
+    text-align: center;
+    border: 5px;
+    border-color: black;
+    background-color: lightblue;
+    top: 150px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#tagline {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.link-container {
+}
+
+
+.nav { 
+  background: red;
+  height: 60px; 
+  width: 100%;
+}
+
+.nav ul {
+  height: 60px;
+  list-style: none;
+  margin: 0 auto; 
+  padding: 0;
+}
+
+.nav ul li {
+  color: #fff;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px; 
+  list-style: none;
+  padding: 0 10px;
+  transition: background .5s; 
+  font-weight: bold;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-and-image {
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
+    align-content: center;
+    /*margin: auto;*/
+    height: 200px;
+    width: 400px;
+    background-color: lightgray;
+}
+
+.menu-block {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    flex: 1;
+}
+
+.image-block {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    flex: 4;
+}
+
+img {
+    width: 180px;
+    height: 150px;
+} 
