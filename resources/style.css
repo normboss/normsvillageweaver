@@ -6,15 +6,23 @@ and open the template in the editor.
 /* 
     Created on : Mar 30, 2018, 3:14:04 PM
     Author     : Norm
+
+Berkshire Swash
 */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Berkshire-Swash');
+
 body {
+    font-family: Berkshire Swash;
     text-align: center;
     margin: 0 auto;
 }
 
 
 
-#title-container {
+.title-container {
     background-image: url("../images/Image1.jpg");
     background-color: lightgray;
     background-position: bottom center;
@@ -28,10 +36,8 @@ body {
     z-index: 1;
 }
 
-#inner-box {
+.inner-box {
     position: relative;
-/*    height 25px;
-    width: 100px;*/
     text-align: center;
     border: 5px;
     border-color: black;
@@ -39,10 +45,11 @@ body {
     top: 150px;
     width: 200px;
     margin: 0 auto;
+    font-size: 25px;
 }
 
 #tagline {
-    font-family: sans-serif;
+    /*font-family: sans-serif;*/
     font-weight: bold;
     text-align: center;
 }
@@ -73,6 +80,7 @@ body {
   padding: 0 10px;
   transition: background .5s; 
   font-weight: bold;
+  font-size: 20px;
 }
 
 .link-container {
@@ -83,31 +91,72 @@ body {
 
 .menu-and-image {
     display: flex;
-    flex-basis: 60%;
     justify-content: center;
     align-content: center;
     /*margin: auto;*/
     height: 200px;
-    width: 400px;
+    width: 450px;
     background-color: lightgray;
+    border-width: 5px;
+    border-color: black;
+    padding: 5px;
+    border-style: outset
 }
 
 .menu-block {
-    height: 100px;
-    width: 100px;
-    margin: 25px;
+    margin: auto;
     flex: 1;
+    border-color: black;
+    /*background-color: pink;*/
+    padding: 5px;
 }
 
 .image-block {
-    position: relative;
-    height: 100px;
-    width: 100px;
-    margin: 25px;
-    flex: 4;
+    /*position: relative;*/
+/*    align-content: center;*/
+/*    height: auto;*/
+/*    weight: auto;*/
+    margin: auto;
+    flex: 2;
+    top: 5px
 }
 
 img {
-    width: 180px;
-    height: 150px;
+    width: 200;
+    height: 200px;
 } 
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+.product-image img {
+    width: 100px;
+    height: 100px;
+   
+}
+
+.icon-button {
+    /*padding: 10px;*/
+    position: relative;
+    font-family: Berkshire Swash;
+    font-weight: bold;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border: 5px;
+    border-color: black;
+}
+
+.shopping-blocks-container {
+    display: flex;
+
+}
+
+.shopping-blocks {
+    flex-direction: row;
+    align-items: center;
+    
+}

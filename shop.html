@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+  <head>
+    <title>Shopping</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./resources/style.css" media="screen" rel="stylesheet" type="text/css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script> 
+    $(function(){
+      $("#header").load("header.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+  </head>
+  <body>
+    
+    <div id="header"></div>
+    
+    <div><h1>Shopping Page</h1></div>
+    
+    <div class="shopping-blocks-container">
+      <div class="shopping-blocks">
+        <div class="product-image">
+           <img class="small" src="./images/P1020237.jpg" alt="picture" >
+        </div>
+        <div>
+          <p>This is some text that refers to the image above.</p>
+        </div>
+      </div>
+      <div class="shopping-blocks">
+        <div class="product-image">
+           <img class="small" src="./images/P1020237.jpg" alt="picture" >
+        </div>
+        <div>
+          <p>This is some text that refers to the image above.</p>
+        </div>
+      </div>
+      <div class="shopping-blocks">
+        <div class="small" class="product-image">
+           <img src="./images/P1020237.jpg" alt="picture" >
+        </div>
+        <div>
+          <p>This is some text that refers to the image above.</p>
+        </div>
+      </div>
+    </div>    
+    
+    <div id="footer"></div>
+    
+  </body>
+</html>
