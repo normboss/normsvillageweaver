@@ -127,15 +127,10 @@ img {
 } 
 
 .small {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
-.product-image img {
-    width: 100px;
-    height: 100px;
-   
-}
 
 .icon-button {
     /*padding: 10px;*/
@@ -152,11 +147,18 @@ img {
 
 .shopping-blocks-container {
     display: flex;
-
+    width: auto;
+    justify-content: center;
 }
 
 .shopping-blocks {
-    flex-direction: row;
-    align-items: center;
-    
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+/*    width: 200px;*/
+    background-color: lightyellow;
+    /*padding: 25px;*/
+    margin: 5px;
+    /*justify-content: center;*/
+    width: 200px;
+    justify-content: space-between;
 }
