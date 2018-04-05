@@ -12,27 +12,27 @@ Berkshire Swash
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Berkshire-Swash');
+@import url('https://fonts.googleapis.com/css?family=Stalemate');
 
 body {
-    font-family: Berkshire Swash;
+    font-family: Stalemate;
     text-align: center;
     margin: 0 auto;
 }
 
 
 
-.title-container {
+/*.title-container {
     background-image: url("../images/Image1.jpg");
     background-color: lightgray;
     background-position: bottom center;
     background-size: cover;
     height: 400px;
-    width: 80%;
+    width: 100%;
     text-align: center;
-    border: 5px;
+    border: 1px;
     border-color: black;
-    margin: 50px;
+    margin: 4px;
     z-index: 1;
 }
 
@@ -40,18 +40,57 @@ body {
     position: relative;
     text-align: center;
     border: 5px;
-    border-color: black;
+    padding: 5px;
+    border-color: white;
+    border-right-style: solid;
     background-color: lightblue;
     top: 150px;
-    width: 200px;
-    margin: 0 auto;
-    font-size: 25px;
+    width: 355px;
+    height: 90px;
+    margin: auto;
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}*/
+
+#banner {
+    display: flex;
+  background-image: url("../images/Image1.jpg");
+  background-color: lightblue;
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
+#banner .content h1 {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  border: 3px solid white;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: auto;
+}
+
+
+h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
 #tagline {
-    /*font-family: sans-serif;*/
     font-weight: bold;
     text-align: center;
+    font-size: 50px;
 }
 
 .link-container {
@@ -59,28 +98,33 @@ body {
 
 
 .nav { 
-  background: red;
-  height: 60px; 
+  background: lightblue;
+  background-size: cover;
+  height: 70px; 
   width: 100%;
+  /*margin: auto;*/
 }
 
 .nav ul {
-  height: 60px;
+  /*height: 70px;*/
   list-style: none;
+  /*margin: 0 auto;*/ 
+  /*padding: 10;*/
+  /*list-style: none;*/
   margin: 0 auto; 
-  padding: 0;
+  /*padding: 0;*/
 }
 
 .nav ul li {
-  color: #fff;
+  padding: 15px;
+  color: white;
   display: inline-block;
-  height: 60px;
-  line-height: 60px; 
-  list-style: none;
-  padding: 0 10px;
-  transition: background .5s; 
+  /*height: 70px;*/
+  line-height: 50px; 
+  /*list-style: none;*/
+  /*transition: background .5s;*/ 
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .link-container {
@@ -91,10 +135,8 @@ body {
 
 .menu-and-image {
     display: flex;
-    justify-content: center;
-    align-content: center;
     /*margin: auto;*/
-    height: 200px;
+    height: 225px;
     width: 450px;
     background-color: lightgray;
     border-width: 5px;
@@ -104,26 +146,21 @@ body {
 }
 
 .menu-block {
+    align-items: center;
     margin: auto;
     flex: 1;
     border-color: black;
-    /*background-color: pink;*/
-    padding: 5px;
 }
 
 .image-block {
-    /*position: relative;*/
-/*    align-content: center;*/
-/*    height: auto;*/
-/*    weight: auto;*/
     margin: auto;
     flex: 2;
     top: 5px
 }
 
 img {
-    width: 200;
-    height: 200px;
+    width: 150;
+    height: 225px;
 } 
 
 .small {
@@ -133,16 +170,17 @@ img {
 
 
 .icon-button {
+    font-family: Stalemate;
     /*padding: 10px;*/
-    position: relative;
-    font-family: Berkshire Swash;
+    /*position: relative;*/
     font-weight: bold;
-    font-size: 30px;
-    align-items: center;
+    font-size: 40px;
+/*    align-items: center;
     text-align: center;
     justify-content: center;
-    border: 5px;
-    border-color: black;
+    align-content: center;*/
+    /*border: 5px;*/
+    /*border-color: black;*/
 }
 
 .shopping-blocks-container {
@@ -161,4 +199,8 @@ img {
     /*justify-content: center;*/
     width: 200px;
     justify-content: space-between;
+}
+
+.shopping-blocks p {
+    font-size: 35px;
 }
