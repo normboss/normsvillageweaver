@@ -13,35 +13,47 @@ Berkshire Swash
 
 
 @import url('https://fonts.googleapis.com/css?family=Stalemate');
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+
+/*<link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">*/
 
 body {
-  font-family: serif;
+  font-family: Euphoria+Script;
+  /*font-family: sans-serif;*/
   text-align: center;
   margin: 0 auto;
 }
 
 #banner {
   display: flex;
-  background-image: url("../images/image0.jpg");
-  background-color: lightblue;
+  background-image: url("../images/home_image.jpg");
+  /*background-color: lightblue;*/
   background-size: cover;
   background-position: bottom center;
-  height: 400px;
+  height: 600px;
   width: 100%;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;*/
+}
+
+
+#banner .content {
+  padding-top: 25px;
 }
 
 #banner .content h1 {
-  font-family: Stalemate;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  border: 3px solid white;
-  padding: 10px;
   position: relative;
-  top: 50px;
-  width: 400px;
+  font-family: Stalemate;
+/*  justify-content: center;
+  align-content: center;
+  align-items: center;*/
+  border: 2px solid white;
+  border-style: dashed;
+  /*padding-top: 25px;*/
+  /*padding: 10px;*/
+  padding: 10px 0 10px 0;
+  top: 350px;
+  width: 500px;
   margin: auto;
 }
 
@@ -62,6 +74,7 @@ h1 {
 }
 
 .link-container {
+  font-family: Euphoria+Script;
 }
 
 
@@ -104,21 +117,43 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: space-around;
   flex-flow: wrap;
+  /*background-color: lightseagreen;*/
 }
 
 .menu-and-image {
   display: flex;
   /*margin: auto;*/
-//  height: 700px;
+/*//  height: 700px;*/
   width: 900px;
   /*flex-wrap: wrap;*/
-  
+  /*height: 400px;*/
   flex-direction: row;
   /*flex-direction: column;*/
   justify-content: center;
-  align-items: stretch;
+  align-items: flex-start;
+  /*background-color: whitesmoke;*/
+  justify-content: center;
+  /*padding-top: 50px;*/
+  padding-top: 10px;
+}
+
+.home-decor {
+  display: flex;
+  /*margin: auto;*/
+/*//  height: 700px;*/
+  width: 900px;
+  /*flex-wrap: wrap;*/
+  /*height: 400px;*/
+  flex-direction: column;
+  /*flex-direction: column;*/
+  justify-content: flex-start;
+  align-items: center;
+  /*background-color: lightgray;*/
+  justify-content: center;
+  /*padding-top: 50px;*/
+  
 }
 
 /*@media screen and (min-width: 900px) {
@@ -131,14 +166,20 @@ h1 {
 }*/
 
 .menu-block {
-  background-color: lightgray;
-  height: 225px;
+  /*background-color: lightgray;*/
+  /*height: 225px;*/
   width: 150px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  height: 100%;
+/*  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;*/
   
+}
+
+.home-decor {
+  /*align-self: column;*/
+  /*background-color: pink;*/
 }
 
 .image-block {
@@ -146,11 +187,15 @@ h1 {
   /*flex: 2;*/
   /*top: 5px;*/
 /*  flex-order: 1;*/
+  /*background-color: lightpink;*/
+  /*width: 20%;*/
+  /*height: 100%;*/
 }
 
 img {
-  width: 150;
-  height: 225px;
+  /*width: 350;*/
+  /*height: 325px;*/
+  height: 70%;
 } 
 
 .small {
@@ -160,8 +205,8 @@ img {
 
 
 .icon-button {
-  font-family: sans-serif;
-  /*padding: 10px;*/
+  font-family: Ephoria; /*sans-serif;*/
+  padding: 10px;
   /*position: relative;*/
   font-weight: bold;
   font-size: 25px;
@@ -171,6 +216,17 @@ img {
       align-content: center;*/
   /*border: 5px;*/
   /*border-color: black;*/
+}
+
+.home-decor .icon-button {
+  /*align-self: flex-start;*/
+  font-family: Ephoria; /*sans-serif;*/
+  /*padding: 10px;*/
+  /*position: relative;*/
+  font-weight: bold;
+  font-size: 25px;
+  width: 100%;
+  /*border: 3px solid black;*/
 }
 
 .shopping-blocks-container {
