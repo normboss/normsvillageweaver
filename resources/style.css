@@ -18,7 +18,7 @@ Berkshire Swash
 /*<link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">*/
 
 body {
-  font-family: Euphoria+Script;
+  /*font-family: 'Euphoria Script', cursive;*/
   /*font-family: sans-serif;*/
   text-align: center;
   margin: 0 auto;
@@ -68,13 +68,14 @@ h1 {
 
 
 #tagline {
+  font-family: 'Euphoria Script', cursive;
   font-weight: bold;
   text-align: center;
   font-size: 30px;
 }
 
 .link-container {
-  font-family: Euphoria+Script;
+  font-family: 'Euphoria Script', cursive;
 }
 
 
@@ -113,6 +114,7 @@ h1 {
 }
 
 .link-container {
+  font-family: 'Euphoria Script', cursive;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -205,7 +207,7 @@ img {
 
 
 .icon-button {
-  font-family: Ephoria; /*sans-serif;*/
+  /*font-family: Ephoria; sans-serif;*/
   padding: 10px;
   /*position: relative;*/
   font-weight: bold;
