@@ -12,7 +12,7 @@ Berkshire Swash
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Stalemate');
+/*@import url('https://fonts.googleapis.com/css?family=Stalemate');*/
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
 
 /*<link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">*/
@@ -43,7 +43,7 @@ body {
 
 #banner .content h1 {
   position: relative;
-  font-family: Stalemate;
+  font-family: 'Euphoria Script', cursive;
 /*  justify-content: center;
   align-content: center;
   align-items: center;*/
@@ -53,7 +53,7 @@ body {
   /*padding: 10px;*/
   padding: 10px 0 10px 0;
   top: 350px;
-  width: 500px;
+  width: 800px;
   margin: auto;
 }
 
@@ -119,8 +119,8 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: space-around;
-  flex-flow: wrap;
+  align-items: center;
+  /*flex-flow: wrap;*/
   /*background-color: lightseagreen;*/
 }
 
@@ -128,61 +128,28 @@ h1 {
   display: flex;
   /*margin: auto;*/
 /*//  height: 700px;*/
-  width: 900px;
-  /*flex-wrap: wrap;*/
-  /*height: 400px;*/
+  /*width: 900px;*/
+  width: 50%;
+  height: 500px;
   flex-direction: row;
-  /*flex-direction: column;*/
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   /*background-color: whitesmoke;*/
-  justify-content: center;
-  /*padding-top: 50px;*/
-  padding-top: 10px;
+  background-color: white;
+  padding-top: 50px;
 }
-
-.home-decor {
-  display: flex;
-  /*margin: auto;*/
-/*//  height: 700px;*/
-  width: 900px;
-  /*flex-wrap: wrap;*/
-  /*height: 400px;*/
-  flex-direction: column;
-  /*flex-direction: column;*/
-  justify-content: flex-start;
-  align-items: center;
-  /*background-color: lightgray;*/
-  justify-content: center;
-  /*padding-top: 50px;*/
-  
-}
-
-/*@media screen and (min-width: 900px) {
-  menu-and-image {
-    background-color: lightblue;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}*/
 
 .menu-block {
-  /*background-color: lightgray;*/
-  /*height: 225px;*/
-  width: 150px;
-  height: 100%;
-/*  display: flex;
-  flex-direction: row;
+  background-color: lightgrey; 
+  width: 35%;
+  /*height: 100%;*/
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
-  align-items: center;*/
-  
+  align-items: center;
+  /*border: 3px solid black;*/
 }
 
-.home-decor {
-  /*align-self: column;*/
-  /*background-color: pink;*/
-}
 
 .image-block {
   /*margin: auto;*/
@@ -192,12 +159,14 @@ h1 {
   /*background-color: lightpink;*/
   /*width: 20%;*/
   /*height: 100%;*/
+  /*width: 50%;*/
+  /*border: 3px solid red;*/
 }
 
 img {
   /*width: 350;*/
   /*height: 325px;*/
-  height: 70%;
+  /*height: 70%;*/
 } 
 
 .small {
@@ -207,11 +176,16 @@ img {
 
 
 .icon-button {
+  position: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /*font-family: Ephoria; sans-serif;*/
-  padding: 10px;
+  /*padding: 10px;*/
   /*position: relative;*/
+  color: grey;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 70px;
   /*    align-items: center;
       text-align: center;
       justify-content: center;
@@ -220,16 +194,16 @@ img {
   /*border-color: black;*/
 }
 
-.home-decor .icon-button {
-  /*align-self: flex-start;*/
-  font-family: Ephoria; /*sans-serif;*/
-  /*padding: 10px;*/
-  /*position: relative;*/
+
+
+/*.home-decor .icon-button {
+  align-self: flex-start;
+  font-family: 'Euphoria Script', cursive; sans-serif;
   font-weight: bold;
   font-size: 25px;
   width: 100%;
-  /*border: 3px solid black;*/
-}
+  border: 3px solid black;
+}*/
 
 .shopping-blocks-container {
   display: flex;
