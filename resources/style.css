@@ -20,52 +20,64 @@ Berkshire Swash
 body {
   /*font-family: 'Euphoria Script', cursive;*/
   /*font-family: sans-serif;*/
-  text-align: center;
-  margin: 0 auto;
+  /*text-align: center;*/
+  /*margin: 0 auto;*/
 }
 
 #banner {
-  display: flex;
-  background-image: url("../images/home_image.jpg");
-  /*background-color: lightblue;*/
+  /*display: flex;*/
+/*  background-image: url("../images/home_image.jpg");
+  background-color: lightblue;
   background-size: cover;
-  background-position: bottom center;
-  height: 600px;
+  background-position: bottom center;*/
+  /*height: 600px;*/
   width: 100%;
-  justify-content: center;
+  /*margin: auto;*/
+/*  justify-content: center;*/
   /*align-items: center;*/
 }
 
 
 #banner .content {
-  padding-top: 25px;
-}
-
-#banner .content h1 {
-  position: relative;
-  font-family: 'Euphoria Script', cursive;
-/*  justify-content: center;
-  align-content: center;
-  align-items: center;*/
-  border: 2px solid white;
-  border-style: dashed;
   /*padding-top: 25px;*/
-  /*padding: 10px;*/
-  padding: 10px 0 10px 0;
-  top: 350px;
-  width: 800px;
-  margin: auto;
 }
 
-
-h1 {
-  color: white;
-  font-size: 80px;
-  font-weight: 600;
-  text-align: center;
+div {
+  /*border: 5px solid blue;*/
+  
 }
 
+#heading {
+  width: 100%;
+  /*border: 3px solid red;*/
+}
 
+#heading  {
+  font-family: 'Euphoria Script', cursive;
+  color: slategray;
+  background-color: whitesmoke;
+  font-size: 70px;
+  font-weight: 400;
+  display: flex;
+  justify-content: flex-start;
+  aligns-items: center;
+  width: 100%;
+  /*border: 3px solid red;*/
+  padding-left: 400px;
+}
+
+span.stretch {
+    display:inline-block;
+    -webkit-transform:scale(2,1); /* Safari and Chrome */
+    -moz-transform:scale(2,1); /* Firefox */
+    -ms-transform:scale(2,1); /* IE 9 */
+    -o-transform:scale(2,1); /* Opera */
+    transform:scale(2,1); /* W3C */
+}
+
+.banner {
+  width: 100%;
+}
 
 #tagline {
   font-family: 'Euphoria Script', cursive;
@@ -101,7 +113,6 @@ h1 {
 }
 
 .nav ul li {
-  
   padding-top: 15px;
   /*color: white;*/
   /*display: inline-block;*/
