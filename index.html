@@ -13,26 +13,49 @@ and open the template in the editor.
     <link href="./resources/style.css" media="screen" rel="stylesheet" type="text/css">
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
-      $(function () {
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
-      });
+//      $(function () {
+//        $("#header").load("header.html");
+//        $("#footer").load("footer.html");
+//      });
     </script> 
   </head>
   <body>
 
-    <div id="header"></div>
+    <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    
+    <div id="banner">Maine Village Weaver</div>
+
+    <header>
+      <div id="header-image">
+        Hand Wover With Love
+      </div>
+      <nav>
+        <span><a href="index.html">Home</a></span>
+        <span><a href="shop.html">Shop</a></span>
+        <span><a href="index.html">About</a></span>
+        <span><a href="index.html">Contact</a></span>
+        <span><a href="index.html">Subscribe</a></span>
+      </nav>
+    </header>
+
 
     <div class="link-container">
-      
+
       <div class="menu-and-image">
-        <div class="menu-block">
+        <div id="shawls" class="menu-block">
           <div class="icon-button">
             <div class="heading-row">
               Shawls
             </div>
-            <div class="heading-row">
-              & 
+            <div  id="appersand" class="heading-row">
+              &
             </div>
             <div class="heading-row">
               Scarves
@@ -45,7 +68,7 @@ and open the template in the editor.
       </div>
 
       <div class="menu-and-image">
-        <div class="menu-block">
+        <div id="decorative" class="menu-block">
           <div class="icon-button">
             <div class="heading-row">
               Soft
@@ -64,8 +87,14 @@ and open the template in the editor.
       </div>
 
       <div class="menu-and-image">
-        <div class="menu-block">
+        <div id="home-decor" class="menu-block">
           <div class="icon-button">
+            <div class="heading-row">
+              Curtains
+            </div>
+            <div class="heading-row">
+              &
+            </div>
             <div class="heading-row">
               Home 
             </div>
@@ -79,8 +108,44 @@ and open the template in the editor.
         </div>
       </div>
     </div>
-    
-      <div id="footer"></div>
+
+    <footer>
+      <div id="footer-text">
+        <div class="title"><h2>Maine Village Weaver</h2></div>
+        <div class="footer-spacer"></div>
+        <div class="address">587 Bristol Road</div>
+        <div class="address">Bristol, Maine 04539</div>
+        <div class="footer-spacer"></div>
+        <div class="phone-number">
+          <span class="phone-number-title">Telephone</span><span class="phone-number-body"> 207 563 5788</span>
+        </div>
+        <div class="footer-spacer"></div>
+        <div>leck@midcoast.com</div>
+      </div>
+      
+      <div id="footer-stuff">
+        <!--<img src="./images/footer.png">-->
+<!--<iframe width="180" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;ie=UTF8&amp;q=ocean+point+marina+maine&amp;fb=1&amp;gl=us&amp;hq=ocean+point+marina&amp;hnear=0x4cb01dde1d538ad5:0xd679cc6f6720a8d0,Maine&amp;cid=0,0,1220807410701234562&amp;t=m&amp;ll=43.867858,-69.58221&amp;spn=0.005414,0.010729&amp;z=16&amp;iwloc=A&amp;output=embed"></iframe>      </div>-->
+      
+        <div class="map">
+          <iframe width="120" height="110" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=43.9932053,-69.53366699999998&amp;q=587%20Bristol%20Rd%20Bristol%2C%20ME%2004539+(Maine%20Village%20Weaver)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe>
+        </div>
+          
+        <div id="footer-links">
+<!--          <FORM>
+          <INPUT TYPE="button" VALUE="Contact Us" onClick="parent.location='mailto:you@youremail.com?subject=The subject you want to appear&cc=you2@youremail.com'">
+          <INPUT TYPE="button" onClick="parent.location='mailto:norm.bosse0@gmail.com?subject=The subject&cc='">
+          </FORM>          -->
+          <img src="./images/envelop-in-circle.jpg">
+          <img src="./images/unknown-image.jpg">
+          <img src="./images/pininterest.jpg">
+          <!--<div class="fb-like" data-href="https://www.facebook.com/njbosse" data-width="50" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>-->
+          <img src="./images/Twitter_Social_Icon_Circle_Color.png">
+
+        </div>
+
+      </div>
+    </footer>
 
   </body>
 </html>
