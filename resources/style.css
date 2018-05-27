@@ -12,7 +12,7 @@ Berkshire Swash
 
 
 
-/*@import url('https://fonts.googleapis.com/css?family=Stalemate');*/
+@import url('https://fonts.googleapis.com/css?family=Stalemate');
 @import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
 @import url('https://fonts.googleapis.com/css?family=Italianno');
 
@@ -24,13 +24,18 @@ body {
   /*font-family: sans-serif;*/
   /*text-align: center;*/
   /*margin: 0 auto;*/
-  width: 1200px;
+  /*width: 1200px;*/
+  margin: 0;
 }
 
 div {
   border: 0px soiid red;
 }
 
+#header {
+  display: flex;
+  justify-content: space-between;
+}
 
 #header-image {
   width: 100%;
@@ -41,10 +46,12 @@ div {
   align-items: flex-end;
       /*<img id="header-image" src="./images/phyllis_title_cropped.jpg">*/
   background-image: url("../images/phyllis_title_cropped.jpg");
+  background-size: cover;
   color: white;
   font-weight: bold;
   font-size: 60px;
-  font-family: Italianno;
+  font-family: Stalemate;
+  width: 100%;
 }
 
 #banner {
@@ -81,6 +88,37 @@ header nav {
 header nav span a {
   font-size: 20px;
   color: white;
+}
+
+#statement-parent {
+  /*background-color: lightblue;*/
+  /*width: 70%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
+}
+
+.statement {
+  /*background-color: lightyellow;*/
+  padding: 40px 50px 0px 50px;
+  height: auto;
+  font-size: 40px;
+  text-align: left;
+  width: 70%;
+/*  display: flex;
+  justify-content: center;*/
+}
+
+.signature {
+  /*background-color: lightgreen;*/
+  padding-top: 0px;
+  height: auto;
+  font-size: 40px;
+  text-align: left;
+/*  display: flex;
+  justify-content: center;*/
 }
 
 .link-container {
