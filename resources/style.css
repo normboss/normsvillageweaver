@@ -90,7 +90,7 @@ header nav span a {
   color: white;
 }
 
-#statement-parent {
+.statement-parent {
   /*background-color: lightblue;*/
   /*width: 70%;*/
   display: flex;
