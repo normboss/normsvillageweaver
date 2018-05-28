@@ -204,6 +204,7 @@ header nav span a {
   /*height: 100%;*/
   /*width: 50%;*/
   /*border: 0px solid red;*/
+  overflow: hidden;
 }
 
 img {
