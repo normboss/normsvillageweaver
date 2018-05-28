@@ -12,20 +12,13 @@ Berkshire Swash
 
 
 
-@import url('https://fonts.googleapis.com/css?family=Stalemate');
-@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
 @import url('https://fonts.googleapis.com/css?family=Italianno');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-/*Italianno*/
-/*<link href="https://fonts.googleapis.com/css?family=Euphoria+Script" rel="stylesheet">*/
 
 body {
-  /*font-family: 'Euphoria Script', cursive;*/
-  /*font-family: sans-serif;*/
-  /*text-align: center;*/
-  /*margin: 0 auto;*/
-  /*width: 1200px;*/
   margin: 0;
+  font-family: Italianno;
 }
 
 div {
@@ -50,7 +43,7 @@ div {
   color: white;
   font-weight: bold;
   font-size: 60px;
-  font-family: Stalemate;
+  font-family: Italianno;
   width: 100%;
 }
 
@@ -67,7 +60,7 @@ div {
   color: #7D4628;
   font-weight: bold;
   font-size: 60px;
-  font-family: Stalemate;
+  font-family: Italianno;
   width: 100%;
 }
 
@@ -122,6 +115,7 @@ header nav span a {
 .statement-parent {
   /*background-color: lightblue;*/
   /*width: 70%;*/
+  font-family: verdana;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,11 +145,11 @@ header nav span a {
 }
 
 .link-container {
-  font-family: 'Euphoria Script', cursive;
+  font-family: 'Italianno', cursive;
 }
 
 .link-container {
-  font-family: 'Euphoria Script', cursive;
+  font-family: 'Italianno', cursive;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -229,11 +223,11 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*font-family: Ephoria; sans-serif;*/
+  font-family: "Open Sans";
   /*padding: 10px;*/
   /*position: relative;*/
   color: #000000;
-  font-weight: bold;
+  font-weight: 300;
   font-size: 40px;
   /*    align-items: center;
       text-align: center;
@@ -247,7 +241,7 @@ img {
 
 /*.home-decor .icon-button {
   align-self: flex-start;
-  font-family: 'Euphoria Script', cursive; sans-serif;
+  font-family: 'Italianno', cursive; sans-serif;
   font-weight: bold;
   font-size: 25px;
   width: 100%;
@@ -412,4 +406,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 #temporary-spacer {
   height: 200px;
   
+}
+
+.icon-button a {
+  text-decoration: none;
 }
