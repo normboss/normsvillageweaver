@@ -125,14 +125,14 @@ header nav span a {
   height: auto;
   font-size: 22px;
   text-align: left;
-  width: 70%;
+  width: 50%;
 /*  display: flex;
   justify-content: center;*/
 }
 
 .signature {
   /*background-color: lightgreen;*/
-  width: 70%;
+  width: 40%;
   padding-top: 0px;
   height: auto;
   font-size: 22px;
@@ -189,6 +189,7 @@ header nav span a {
 
 .heading-row {
   text-align: center;
+  color: #4D2E22;
 }
 
 .image-block {
@@ -372,4 +373,9 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .icon-button a {
   text-decoration: none;
+}
+
+#footer-text .title h2 {
+  font-family: Italianno;
+  font-size: 30px;
 }
