@@ -18,17 +18,12 @@ Berkshire Swash
 
 body {
   margin: 0;
-  font-family: Italianno;
+  font-family: "OPen-Sans";
 }
 
 div {
   border: 0px soiid red;
 }
-
-/*#header {
-  display: flex;
-  justify-content: space-between;
-}*/
 
 #header-image {
   width: 100%;
@@ -115,7 +110,8 @@ header nav span a {
 .statement-parent {
   /*background-color: lightblue;*/
   /*width: 70%;*/
-  font-family: verdana;
+  /*font-family: verdana;*/
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,7 +123,7 @@ header nav span a {
   /*background-color: lightyellow;*/
   padding: 40px 50px 0px 50px;
   height: auto;
-  font-size: 40px;
+  font-size: 22px;
   text-align: left;
   width: 70%;
 /*  display: flex;
@@ -136,10 +132,11 @@ header nav span a {
 
 .signature {
   /*background-color: lightgreen;*/
+  width: 70%;
   padding-top: 0px;
   height: auto;
-  font-size: 40px;
-  text-align: left;
+  font-size: 22px;
+  text-align: right;
 /*  display: flex;
   justify-content: center;*/
 }
@@ -195,29 +192,13 @@ header nav span a {
 }
 
 .image-block {
-  /*margin: auto;*/
-  /*flex: 2;*/
-  /*top: 5px;*/
-/*  flex-order: 1;*/
-  /*background-color: lightpink;*/
-  /*width: 20%;*/
-  /*height: 100%;*/
-  /*width: 50%;*/
-  /*border: 0px solid red;*/
   overflow: hidden;
 }
-
-img {
-  /*width: 350;*/
-  /*height: 325px;*/
-  /*height: 70%;*/
-} 
 
 .small {
   width: 200px;
   height: 200px;
 }
-
 
 .icon-button {
   position: flex;
@@ -225,29 +206,10 @@ img {
   justify-content: center;
   align-items: center;
   font-family: "Open Sans";
-  /*padding: 10px;*/
-  /*position: relative;*/
   color: #000000;
   font-weight: 300;
   font-size: 40px;
-  /*    align-items: center;
-      text-align: center;
-      justify-content: center;
-      align-content: center;*/
-  /*border: 5px;*/
-  /*border-color: red;*/
 }
-
-
-
-/*.home-decor .icon-button {
-  align-self: flex-start;
-  font-family: 'Italianno', cursive; sans-serif;
-  font-weight: bold;
-  font-size: 25px;
-  width: 100%;
-  border: 0px solid black;
-}*/
 
 .shopping-blocks-container {
   display: flex;
@@ -256,13 +218,8 @@ img {
 }
 
 .shopping-blocks {
-  /*flex-direction: row;*/
-  /*align-items: center;*/
-  /*    width: 200px;*/
   background-color: lightyellow;
-  /*padding: 25px;*/
   margin: 5px;
-  /*justify-content: center;*/
   width: 200px;
   justify-content: space-between;
 }
@@ -272,7 +229,9 @@ img {
 }
 
 footer {
-  color: white;
+  font-family: verdana;
+  font-size: 12px;
+  color: #FFFFFF;
   width: 100%;
   height: 250px;
   background-color: #4D2E22;
@@ -286,6 +245,7 @@ footer {
   justify-content: center;
   padding-left: 75px;
 }
+
 #footer-stuff {
   width: 25%;
   display: flex;
@@ -296,13 +256,14 @@ footer {
   padding-right: 40px;
 }
 
+#footer-stuff .main-weaver {
+  font-family: "Italianno";
+  font-size: 25px;
+}
+
 #footer-stuff img {
   width: 158px;
   height: 112px;
-/*  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;*/
 }
 
 #footer-stuff img {
