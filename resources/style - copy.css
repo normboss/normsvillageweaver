@@ -42,23 +42,6 @@ div {
   width: 100%;
 }
 
-#about-image {
-  width: 100%;
-  height: 610px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-      /*<img id="header-image" src="./images/phyllis_title_cropped.jpg">*/
-  background-image: url("../images/about_image.jpg");
-  background-size: cover;
-  color: white;
-  font-weight: bold;
-  font-size: 60px;
-  font-family: Italianno;
-  width: 100%;
-}
-
 #home-decor-image {
   width: 100%;
   height: 400px;
@@ -215,7 +198,8 @@ header nav span a {
 
 .copy-and-image {
   display: flex;
-  /*height: 600px;*/
+  /*margin: auto;*/
+/*//  height: 700px;*/
   /*width: 900px;*/
   width: 100%;
   /*height: 500px;*/
@@ -254,16 +238,12 @@ header nav span a {
 
 .small-heading-row {
   font-size: 20px;
-  font-weight: bold;
   text-align: center;
   color: #4D2E22;
-  padding-bottom: 25px;
 }
 
 .image-block {
   overflow: hidden;
-  width: 300px;
-  /*height: 700px;*/
 }
 
 .small {
@@ -504,25 +484,11 @@ nav a:hover, .dropdown:hover .dropbtn {
   width: 25%;
 }
 
-.shawls-container .copy-block {
-  width: 20%;
+.shawls-container,.home-decor-container .copy-block {
+  width: 30%;
   /*border: 3px solid red;*/
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.home-decor-container .copy-block {
-  width: 25%;
-  /*border: 3px solid red;*/
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-.about-container .copy-block {
-  width: 25%;
-  /*border: 3px solid red;*/
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 /*.home-decor-container .copy-block {
@@ -532,7 +498,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   padding-right: 5%;
 }*/
 
-.shawls-container,.home-decor-container,.about-container .copy-and-image {
+.shawls-container,.home-decor-container .copy-and-image {
   padding-bottom: 4%;
 }
 
@@ -553,28 +519,6 @@ nav a:hover, .dropdown:hover .dropbtn {
   flex-direction: column;
   /*justify-content: center;*/
   align-items: center;
-  height: 10000px;
+  /*height: 10000px;*/
 }
 
-.about-container {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center;*/
-  align-items: center;
-  height: 10000px;
-}
-
-.about-container .copy-and-image {
-  border: 3px solid red;
-  width: 50%;
-  background-color: #F3F4F5;
-}
-
-.about-container .copy-block {
-  width: 60%;
-}
-
-.about-container .image-block {
-  padding-left: 5%;
-  padding-top: 5%;
-}

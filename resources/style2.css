@@ -70,7 +70,7 @@ h1 {
   font-size: 30px;
 }
 
-.link-container {
+.index-container {
 }
 
 
@@ -108,7 +108,7 @@ h1 {
   font-size: 20px;
 }
 
-.link-container {
+.index-container {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -117,7 +117,7 @@ h1 {
   flex-flow: wrap;
 }
 
-.menu-and-image {
+.copy-and-image {
   display: flex;
   /*margin: auto;*/
 /*//  height: 700px;*/
@@ -141,7 +141,7 @@ h1 {
   }
 }*/
 
-.menu-block {
+.copy-block {
   background-color: lightgray;
   /*height: 225px;*/
   width: 150px;

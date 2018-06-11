@@ -42,23 +42,6 @@ div {
   width: 100%;
 }
 
-#about-image {
-  width: 100%;
-  height: 610px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-end;
-      /*<img id="header-image" src="./images/phyllis_title_cropped.jpg">*/
-  background-image: url("../images/about_image.jpg");
-  background-size: cover;
-  color: white;
-  font-weight: bold;
-  font-size: 60px;
-  font-family: Italianno;
-  width: 100%;
-}
-
 #home-decor-image {
   width: 100%;
   height: 400px;
@@ -215,7 +198,8 @@ header nav span a {
 
 .copy-and-image {
   display: flex;
-  /*height: 600px;*/
+  /*margin: auto;*/
+/*//  height: 700px;*/
   /*width: 900px;*/
   width: 100%;
   /*height: 500px;*/
@@ -246,6 +230,16 @@ header nav span a {
   
 }
 
+/*.icon-button {
+  position: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans";
+  color: #000000;
+  font-weight: 300;
+  font-size: 40px;
+}*/
 
 .heading-row {
   text-align: center;
@@ -254,16 +248,12 @@ header nav span a {
 
 .small-heading-row {
   font-size: 20px;
-  font-weight: bold;
   text-align: center;
   color: #4D2E22;
-  padding-bottom: 25px;
 }
 
 .image-block {
   overflow: hidden;
-  width: 300px;
-  /*height: 700px;*/
 }
 
 .small {
@@ -443,6 +433,28 @@ nav a:hover, .dropdown:hover .dropbtn {
   font-size: 30px;
 }
 
+#home-decor-container {
+  font-family: "Open sans";
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: 3px solid blue;
+}
+
+#decor-container2 {
+  /*background-color: #E3E9F9;*/
+  background-color: F3F4F5
+  width: 80%;
+  /*height: 1000px;*/
+  height: auto;
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .home-decor-header {
   width: 80%;
   height: 450px;
@@ -469,6 +481,59 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 #home-decor-header h2 {
   border: 3px solid green;
+}
+
+/*#decor-container4 {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid red;
+}*/
+
+#decor-container5 {
+  width: 50%;
+  height: 100%;
+  border: 3px solid red;
+}
+
+#decor-container5 img {
+  /*width: 100%;*/
+  height: 100%;
+  border: 3px solid red;
+}
+
+#decor-container6 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid red;
+}
+
+#decor-container6 img {
+  padding-left: 30px;
+  width: 40%;
+}
+
+#decor-container7 {
+   solid green;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 3px solid red;
+}
+
+#decor-container8 {
+  border: 3px solid red;
+  width: 50%;
+}
+
+#decor-container9 {
+  border: 3px solid red;
+  width: 50%;
+  
 }
 
 .shawls-container {
@@ -504,25 +569,11 @@ nav a:hover, .dropdown:hover .dropbtn {
   width: 25%;
 }
 
-.shawls-container .copy-block {
-  width: 20%;
+.shawls-container,.home-decor-container .copy-block {
+  width: 30%;
   /*border: 3px solid red;*/
   padding-left: 5%;
   padding-right: 5%;
-}
-
-.home-decor-container .copy-block {
-  width: 25%;
-  /*border: 3px solid red;*/
-  padding-left: 2%;
-  padding-right: 2%;
-}
-
-.about-container .copy-block {
-  width: 25%;
-  /*border: 3px solid red;*/
-  padding-left: 2%;
-  padding-right: 2%;
 }
 
 /*.home-decor-container .copy-block {
@@ -532,7 +583,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   padding-right: 5%;
 }*/
 
-.shawls-container,.home-decor-container,.about-container .copy-and-image {
+.shawls-container,.home-decor-container .copy-and-image {
   padding-bottom: 4%;
 }
 
@@ -556,25 +607,6 @@ nav a:hover, .dropdown:hover .dropbtn {
   height: 10000px;
 }
 
-.about-container {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center;*/
-  align-items: center;
-  height: 10000px;
-}
-
-.about-container .copy-and-image {
-  border: 3px solid red;
-  width: 50%;
-  background-color: #F3F4F5;
-}
-
-.about-container .copy-block {
-  width: 60%;
-}
-
-.about-container .image-block {
-  padding-left: 5%;
-  padding-top: 5%;
+.home-decor-1 {
+  /*height: 2000px;*/
 }
