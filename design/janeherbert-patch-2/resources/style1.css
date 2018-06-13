@@ -1,0 +1,175 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 30, 2018, 3:14:04 PM
+    Author     : Norm
+
+Berkshire Swash
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Stalemate');
+
+body {
+  font-family: Stalemate;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#banner {
+  display: flex;
+  background-image: url("../images/Image1.jpg");
+  background-color: lightblue;
+  background-size: cover;
+  background-position: bottom center;
+  height: 400px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#banner .content h1 {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border: 3px solid white;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: auto;
+}
+
+
+h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+
+#tagline {
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+
+.link-container {
+}
+
+
+.nav { 
+  background: lightblue;
+  background-size: cover;
+  height: 70px; 
+  width: 100%;
+  /*margin: auto;*/
+}
+
+.nav ul {
+  /*height: 70px;*/
+  list-style: none;
+  /*margin: 0 auto;*/ 
+  /*padding: 10;*/
+  /*list-style: none;*/
+  margin: 0 auto; 
+  /*padding: 0;*/
+}
+
+.nav ul li {
+  padding: 15px;
+  color: white;
+  display: inline-block;
+  /*height: 70px;*/
+  line-height: 50px; 
+  /*list-style: none;*/
+  /*transition: background .5s;*/ 
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-and-image {
+  display: flex;
+  /*margin: auto;*/
+  height: 225px;
+  width: 450px;
+  background-color: lightgray;
+/*  border-width: 5px; 
+  border-color: black;*/
+  padding: 5px;
+  border-style: outset
+  flex-wrap: wrap;
+}
+
+.menu-block {
+  align-items: center;
+  margin: auto;
+  flex: 1;
+  border-color: black;
+  flex-wrap: wrap;
+}
+
+.image-block {
+  margin: auto;
+  flex: 2;
+  top: 5px
+}
+
+img {
+  width: 150;
+  height: 225px;
+} 
+
+.small {
+  width: 200px;
+  height: 200px;
+}
+
+
+.icon-button {
+  font-family: Stalemate;
+  /*padding: 10px;*/
+  /*position: relative;*/
+  font-weight: bold;
+  font-size: 40px;
+  /*    align-items: center;
+      text-align: center;
+      justify-content: center;
+      align-content: center;*/
+  /*border: 5px;*/
+  /*border-color: black;*/
+}
+
+.shopping-blocks-container {
+  display: flex;
+  width: auto;
+  justify-content: center;
+}
+
+.shopping-blocks {
+  /*flex-direction: row;*/
+  /*align-items: center;*/
+  /*    width: 200px;*/
+  background-color: lightyellow;
+  /*padding: 25px;*/
+  margin: 5px;
+  /*justify-content: center;*/
+  width: 200px;
+  justify-content: space-between;
+}
+
+.shopping-blocks p {
+  font-size: 35px;
+}
