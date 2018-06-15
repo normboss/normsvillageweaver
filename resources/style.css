@@ -623,7 +623,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   height: 450px;
 }
 
-.about-container #block2 .image-block {/
+.about-container #block2 .image-block {
   /*padding-top: 50px;*/
   height: 450px;
 }
@@ -645,7 +645,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 .about-container .image-block {
 /*  padding-left: 5%;
   padding-top: 5%;*/
-  border: 3px solid red;
+  /*border: 3px solid red;*/
   /*height: 400px;*/
 }
 
@@ -715,7 +715,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .link-block {
-  width: 375px;
+  width: 270px;
   height: 561px;
 }
 
