@@ -15,10 +15,9 @@ Berkshire Swash
 @import url('https://fonts.googleapis.com/css?family=Italianno');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-
 body {
   margin: 0;
-  font-family: "OPen-Sans";
+  font-family: 'Open Sans';
 }
 
 div {
@@ -44,7 +43,7 @@ div {
 
 #about-image {
   width: 100%;
-  height: 610px;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,7 +55,6 @@ div {
   font-weight: bold;
   font-size: 60px;
   font-family: Italianno;
-  width: 100%;
 }
 
 #home-decor-image {
@@ -78,7 +76,7 @@ div {
 
 .banner {
   width: 100%;
-  font-family: "Open-Sans";
+  font-family: Italianno;
   font-size: 80px;
   font-weight: bold;
   color: #7D4628;
@@ -91,7 +89,7 @@ div {
 }
 .banner .text1 {
   /*width: 60%;*/
-  font-family: Italianno;
+  /*font-family: Italianno;*/
   font-size: 80px;
   font-weight: bold;
   color: #7D4628;
@@ -106,7 +104,8 @@ div {
 .banner .text2 {
   /*width: 40%;*/
   /* solid red;*/
-  font-family: "OPen Sans";
+  color: #480F06;
+  font-family: "OPen Sans", 'Arial BOld';
   font-size: 40px;
   text-align: right;
   /*padding-top: 10px;*/
@@ -208,10 +207,6 @@ header nav span a {
 .index-container h1 {
   font-family: "TimesNewRoman";
 }
-  
-.content-text-block {
-  font-size: 15px;
-}
 
 .copy-and-image {
   display: flex;
@@ -225,10 +220,12 @@ header nav span a {
   /*background-color: whitesmoke;*/
   background-color: white;
   padding-top: 20px;
-  border: 0px solid red;
+  /*border: 3px solid red;*/
 }
 
 .copy-block {
+  /*border: 3px solid red;*/
+  height: 561px;
   background-color: #F3F4F5;
   /*width: 25%;*/
   /*width: 25%;*/
@@ -237,15 +234,19 @@ header nav span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*border: 3px solid red;*/
-  
+  border: 0px solid red;
   font-family: "Open Sans";
   color: #000000;
   font-weight: 300;
   font-size: 40px;
-  
 }
-
+  
+.content-text-block {
+  /*width: 125%;*/
+  width: 100%;
+  /*border: 3px solid red;*/
+  font-size: 15px;
+}
 
 .heading-row {
   text-align: center;
@@ -253,11 +254,12 @@ header nav span a {
 }
 
 .small-heading-row {
+  /*border: 3px solid red;*/
   font-size: 20px;
   font-weight: bold;
   text-align: center;
   color: #4D2E22;
-  padding-bottom: 25px;
+  /*padding-bottom: 25px;*/
 }
 
 .image-block {
@@ -270,6 +272,12 @@ header nav span a {
   width: 200px;
   height: 200px;
 }
+
+.price-block {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .shopping-blocks-container {
   display: flex;
@@ -300,10 +308,15 @@ footer {
 }
 
 #footer-text {
-  display: flex;
+  /*border: 3px solid red;*/
+/*  display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;*/
   padding-left: 75px;
+}
+
+#footer-text li {
+  list-style: none;
 }
 
 #footer-stuff {
@@ -332,7 +345,7 @@ footer {
 }
 
 .footer-spacer {
-  height: 15px;
+  height: 10px;
 }
 
 .phone-number-title {
@@ -393,12 +406,18 @@ nav a {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
+    /*background-color: #5243D8;*/
     background-color: red;
 }
 
 nav a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #5243D8;
 }
+
+.copy-block a:hover {
+    background-color: #E3E4E5;
+}
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -417,9 +436,9 @@ nav a:hover, .dropdown:hover .dropbtn {
     text-align: left;
 }
 
-.dropdown-content a:hover {
+/*.dropdown-content a:hover {
     background-color: #ddd;
-}
+}*/
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -439,6 +458,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 #footer-text .title h2 {
+  /*border: 3px solid red;*/
   font-family: Italianno;
   font-size: 30px;
 }
@@ -458,17 +478,17 @@ nav a:hover, .dropdown:hover .dropbtn {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  border: 3px solid red;
+  border: 0px solid red;
 }
 
 #home-decor-header p {
-  border: 3px solid red;
+  border: 0px solid red;
   width: 100%;
   text-align: right;
 }
 
 #home-decor-header h2 {
-  border: 3px solid green;
+  border: 0px solid green;
 }
 
 .shawls-container {
@@ -480,21 +500,24 @@ nav a:hover, .dropdown:hover .dropbtn {
   
 }
 
+.shawls-container .copy-and-image {
+}
+
 .shawls-container home-decor-container {
   .copy-and-image {
-      border: 3px solid red;
+      border: 0px solid red;
     .copy-block {
-      border: 3px solid red;
-      width: 50%;
+      border: 0px solid red;
+      /*width: 40%;*/
     }
   }
 }
 
 .index-container {
   .copy-and-image {
-      border: 3px solid red;
+      border: 0px solid red;
     .copy-block {
-      border: 3px solid red;
+      border: 0px solid red;
       width: 100%;
     }
   }
@@ -506,28 +529,28 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .shawls-container .copy-block {
   width: 20%;
-  /*border: 3px solid red;*/
+  /*border: 0px solid red;*/
   padding-left: 5%;
   padding-right: 5%;
 }
 
 .home-decor-container .copy-block {
   width: 25%;
-  /*border: 3px solid red;*/
+  /*border: 0px solid red;*/
   padding-left: 2%;
   padding-right: 2%;
 }
 
 .about-container .copy-block {
-  width: 25%;
-  /*border: 3px solid red;*/
+  /*width: 25%;*/
+  /*border: 0px solid red;*/
   padding-left: 2%;
   padding-right: 2%;
 }
 
 /*.home-decor-container .copy-block {
   width: 30%;
-  border: 3px solid red;
+  border: 0px solid red;
   padding-left: 5%;
   padding-right: 5%;
 }*/
@@ -542,7 +565,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   width: 80%;
   height: 1000px;*/
   /*height: auto;*/
-  border: 3px solid red;
+  border: 0px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -553,19 +576,19 @@ nav a:hover, .dropdown:hover .dropbtn {
   flex-direction: column;
   /*justify-content: center;*/
   align-items: center;
-  height: 10000px;
+  /*height: 10000px;*/
 }
 
 .about-container {
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
+  /*justify-content: space-between;*/
   align-items: center;
-  height: 10000px;
+  /*height: 10000px;*/
 }
 
 .contact-container {
-  border: 3px solid red;
+  border: 0px solid red;
   display: flex;
   flex-direction: column;
   /*justify-content: flex-start;*/
@@ -582,19 +605,51 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .about-container .copy-and-image {
-  border: 3px solid red;
-  width: 50%;
+  /*border: 3px solid blue;*/
+  width: 80%;
   background-color: #F3F4F5;
+  /*height: 400px;*/
+}
+
+.about-container #block1 .copy-block {
+  height: 400px;
+}
+
+.about-container #block1 .image-block {
+  height: 400px;
+}
+
+.about-container #block2 .copy-block {
+  height: 450px;
+}
+
+.about-container #block2 .image-block {/
+  /*padding-top: 50px;*/
+  height: 450px;
+}
+
+.about-container #block3 .copy-block{
+  height: 200px;
+}
+
+.about-container #block3 .image-block {
+  height: 200px;
 }
 
 .about-container .copy-block {
-  width: 60%;
+  /*height: 400px;*/
+  /*border: 3px solid red;*/
+  width: 50%;
 }
 
 .about-container .image-block {
-  padding-left: 5%;
-  padding-top: 5%;
+/*  padding-left: 5%;
+  padding-top: 5%;*/
+  border: 3px solid red;
+  /*height: 400px;*/
 }
+
+
 
 
 .contact-container .statement-parent {
@@ -605,7 +660,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .contact-container .statement {
-  border: 3px solid blue;
+  border: 0px solid blue;
   width: 70%;
   font-style: italic; 
   /*height: 50px;*/
@@ -622,3 +677,69 @@ nav a:hover, .dropdown:hover .dropbtn {
 .contact-container li span {
   font-style: italic;
 }
+
+.back-to-top {
+  text-align: right;
+}
+
+#footer-text .title {
+  /*border: 3px solid white;*/
+  /*height: 50px;*/
+  /*line-height: 60%;*/
+  font-size: 50px;
+}
+
+#footer-text {
+    /*left: 100px;*/
+    font-size: 10px;
+}
+
+#footer-text .Phyllis-Leck {
+  font-weight: normal;
+  font-size: 15px;
+  position: relative;
+  top: -25px;
+  left: 0px;
+}
+
+.map {
+  padding-top: 20px;
+}
+
+#footer-links {
+  padding-bottom: 20px;
+}
+
+.newsletter a {
+  color: white;
+}
+
+.link-block {
+  width: 375px;
+  height: 561px;
+}
+
+.heading-rows {
+  position: relative;
+  top: 170px;
+}
+
+@media only screen and (min-width: 900px) {
+  .large-screen {
+    display: inherit;
+  }
+  .small-screen {
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .large-screen {
+    display: none;
+  }
+  .small-screen {
+    display: inherit;
+  }
+}
+
