@@ -566,7 +566,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   padding-right: 5%;
 }*/
 
-.shawls-container,.home-decor-container,.about-container .copy-and-image {
+.shawls-container,.home-decor-container .copy-and-image {
   padding-bottom: 4%;
 }
 
@@ -601,7 +601,22 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .about-block {
   border: 3px solid blue;
-  width: 80%;
+  /*width: 80%;*/
+  display: flex;
+  flex-direction: column;
+}
+
+.about-block .copy-and-image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.about-block .copy-and-image .copy-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*align-items: flex-start;*/
 }
 
 .about-block h1 {
@@ -627,34 +642,39 @@ nav a:hover, .dropdown:hover .dropbtn {
 
 .about-container .copy-and-image {
   /*border: 0px solid blue;*/
-  /*width: 80%;*/
+  /*width: 800px;*/
   background-color: #F3F4F5;
-  /*height: 400px;*/
+  /*height: 500px;*/
 }
 
-.about-container #block1 .copy-block {
-  height: 400px;
+.about-container #block1  {
+  /*height: 100px;*/
 }
 
 .about-container #block1 .image-block {
-  height: 400px;
+  /*height: 400px;*/
+  /*width: 400px;*/
 }
 
-.about-container #block2 .copy-block {
-  height: 450px;
+.about-container #block2  {
+  /*height: 550px;*/
 }
 
-.about-container #block2 .image-block {
+.about-container #block2  {
   /*padding-top: 50px;*/
-  height: 450px;
+  /*height: 450px;*/
 }
 
 .about-container #block3 .copy-block{
-  height: 200px;
+  /*height: 200px;*/
 }
 
-.about-container #block3 .image-block {
-  height: 200px;
+.about-container #block3 {
+  height: 300px;
+}
+
+.about-container #block3 .copy-block {
+  height: 300px;
 }
 
 .about-container .copy-block {
