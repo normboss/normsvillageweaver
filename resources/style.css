@@ -591,7 +591,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .about-container {
-  border: 3px solid red;
+  border: 0px solid red;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -600,10 +600,20 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .about-block {
-  border: 3px solid blue;
+  border: 0px solid blue;
+  font-family: "Open Sans" "Arial" sans serif;
   /*width: 80%;*/
   display: flex;
   flex-direction: column;
+  color: #000000;
+}
+
+.about-block a {
+  color: #092E52;
+}
+
+.about-block ul {
+  list-style: none;
 }
 
 .about-block .copy-and-image {
@@ -656,13 +666,36 @@ nav a:hover, .dropdown:hover .dropbtn {
   /*width: 400px;*/
 }
 
-.about-container #block2  {
-  /*height: 550px;*/
+.about-container #block1 .copy-block {
+  /*height: 450px;*/
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.about-container #block2 .copy-block {
+  /*height: 450px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.about-container #block3 .copy-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .about-container #block2  {
   /*padding-top: 50px;*/
   /*height: 450px;*/
+  /*overflow:  hidden;*/
+  overflow: scroll;
+}
+
+.about-container .about-block .content-text-block {
+  background-color: #F3F4F5;
+  /*width: 80%;*/
 }
 
 .about-container #block3 .copy-block{
@@ -670,7 +703,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .about-container #block3 {
-  height: 300px;
+  overflow: scroll;
+  height: 280px;
 }
 
 .about-container #block3 .copy-block {
@@ -765,7 +799,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   top: 170px;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 100px) {
   .large-screen {
     display: flex;
   }
@@ -775,7 +809,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 100px) {
   .large-screen {
     display: none;
   }
@@ -784,7 +818,7 @@ nav a:hover, .dropdown:hover .dropbtn {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 100px) {
   .about-container {
     display: flex;
   }
@@ -794,7 +828,7 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 100px) {
   .about-container {
     display: none;
   }
