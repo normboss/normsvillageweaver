@@ -59,11 +59,23 @@ div {
   #about-image {
     background-image: url("../images/about_mobile.jpg");
   }
+  .text1 {
+    font-size: 50px;
+  }
+  .text2 {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (min-width: 900px) {
   #about-image {
     background-image: url("../images/about_image.jpg");
+  }
+  .text1 {
+    font-size: 80px;
+  }
+  .text2 {
+    font-size: 40px;
   }
 }
 
@@ -88,11 +100,11 @@ div {
 .banner {
   width: 100%;
   font-family: Italianno;
-  font-size: 80px;
+  /*font-size: 80px;*/
   font-weight: bold;
   color: #7D4628;
   text-align: left;
-  padding-left: 30px;
+  /*padding-left: 30px;*/
   background-color: #E3E3E3;
   display: flex;
   justify-content: space-around;
@@ -101,15 +113,13 @@ div {
 .banner .text1 {
   /*width: 60%;*/
   /*font-family: Italianno;*/
-  font-size: 80px;
+  /*font-size: 80px;*/
   font-weight: bold;
   color: #7D4628;
   text-align: left;
-  /*padding-left: 50px;*/
   background-color: #E3E3E3;
-  display: flex;
-  align-items: baseline;
-  /* solid red;*/
+/*  display: flex;
+  align-items: baseline;*/
 }
 
 .banner .text2 {
@@ -117,7 +127,7 @@ div {
   /* solid red;*/
   color: #480F06;
   font-family: "OPen Sans", 'Arial BOld';
-  font-size: 40px;
+  /*font-size: 40px;*/
   text-align: right;
   /*padding-top: 10px;*/
   padding-left: 100px;
