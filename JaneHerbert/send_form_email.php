@@ -4,8 +4,8 @@
 if ( isset ( $_POST [ 'buttonPressed' ] )){
 
 // REPLACE THE LINE BELOW WITH YOUR E-MAIL ADDRESS.
-$to = 'norm.bosse0@gmail.com' ;
-$subject = 'Contact Village Weaver' ;
+$to = 'Jane@JaneHerbert.com' ;
+$subject = 'Contact Jane' ;
 
 // NOT SUGGESTED TO CHANGE THESE VALUES
 $message = $_POST [ "message" ] ;
@@ -30,8 +30,8 @@ else{
 if(isset($_POST['email'])) {
      
     // EDIT THE 2 LINES BELOW AS REQUIRED
-    $email_to = "norm.bosse0@gmail.com";
-    $email_subject = "Village Weaver contact form";
+    $email_to = "jane@janeherbert.com";
+    $email_subject = "Jane Herbert contact form";
      
      
     function died($error) {
@@ -101,7 +101,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 <script type="text/javascript">
 <!--
-window.location = "thankyou.html"
+window.location = "../thankyou.html"
 //-->
 </script>
  

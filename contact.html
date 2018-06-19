@@ -16,7 +16,7 @@ and open the template in the editor.
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <script>
       $(function () {
-//      $("#banner").load("banner.html"); 
+      $("#banner").load("banner.html"); 
         $("#main-menu").load("main-menu.html");
         $("#footer").load("footer.html");
       });
@@ -39,15 +39,6 @@ and open the template in the editor.
     <div class="contact-container">
 
       <div class="statement-parent">
-        <!--        <span class="statement">
-                  Contact me for custom orders.
-                </span>
-                <span class="statement">
-                  Let's discuss what you can have created just for you!
-                </span>
-                <span class="statement">
-                  I am always happy to answer questions about my work.
-                </span>-->
         <uL>
           <li><span>Contact me for custom orders.</span></li>
           <li><span>Let's discuss what you can have created just for you!</span></li>
@@ -64,7 +55,7 @@ and open the template in the editor.
 
           <section class="contentBox2a">
             <h4>Contact Form</h4>
-            <form action="javascripts/send_form_email.php" class="contactform" method="post" name="contactform">
+            <form action="send_form_email.php" class="contactform" method="post" name="contactform">
               <label for="first_name">First Name *</label> 
               <input maxlength="50" name="first_name" size="40" type="text"> 
               <label for="last_name">Last Name *</label>

@@ -244,40 +244,6 @@ header nav span a {
   /*border: 0px solid red;*/
 }
 
-.sample-weave{
-  /*border: 3px solid red;*/
-  height: 250px;
-}
-
-.sample-weave .copy-block {
-  border: 0px solid red;
-  height: auto;
-}
-
-.sample-weave-text {
-  /*width: 50%;*/
-}
-
-.sample-weave .image-block {
-  border: 0px solid red;
-  background-color: #F3F4F5;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/*.sample-weave-image {
-  width: 50%;
-}*/
-
-.sample-weave {
-  width: 100%;
-  background-color: #F3F4F5;
-  display: flex;
-  justify-content: center;
-}
-
 .copy-block {
   /*border: 0px solid red;*/
   height: 561px;
@@ -525,10 +491,8 @@ a {
 }
 
 .home-decor-header {
-  width: 100%;
+  width: 80%;
   height: 450px;
-  /*height: 300px;*/
-  /*width: 800px;*/
   border: 0px solid red;
   background-image: url("../images/swag.jpg");
   background-size: cover;
@@ -576,10 +540,6 @@ a {
   }
 }
 
-#assymetrical {
-  height: auto;
-}
-
 .index-container {
   .copy-and-image {
       border: 0px solid red;
@@ -594,7 +554,7 @@ a {
   width: 25%;
 }
 
-.shawls-container .copy-block,.sample-weave-text {
+.shawls-container .copy-block {
   width: 20%;
   /*border: 0px solid red;*/
   padding-left: 5%;
@@ -622,7 +582,7 @@ a {
   padding-right: 5%;
 }*/
 
-.shawls-container,.home-decor-container,.sample-weave-container .copy-and-image {
+.shawls-container,.home-decor-container .copy-and-image {
   padding-bottom: 4%;
 }
 
@@ -692,6 +652,11 @@ a {
 
 .contact-container {
   border: 3px solid red;
+  /*display: flex;*/
+/*  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 10000px;*/
 }
 
 .contact-container {
