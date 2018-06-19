@@ -53,63 +53,35 @@ and open the template in the editor.
           <li><span>Let's discuss what you can have created just for you!</span></li>
           <li><span>I am always happy to answer questions about my work.</span></li>
         </ul>
-        <img src="./images/contact_phyllis.jpg" alt="picture" >
         <span class="signature">Phyllis Leck</span>
       </div>
 
-      <div class="form-container">
-        <form action="action_page.php">
-          <div>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
-          </div>
-          <div>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-          </div>
-          <div>
-            <label for="subject">Subject</label>
-            <input type="text" id="sub" name="subject" placeholder="Subject..">
-          </div>
-          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;width:200px"></textarea>
+      <div class="contact-block">
+        <div class="contact-image">
+          <img src="./images/contact_phyllis.jpg" alt="picture" >
+        </div>
+        <div class="form-container">
 
-          <input type="submit" value="Submit">
+          <section class="contentBox2a">
+            <h4>Contact Form</h4>
+            <form action="javascripts/send_form_email.php" class="contactform" method="post" name="contactform">
+              <label for="first_name">First Name *</label> 
+              <input maxlength="50" name="first_name" size="40" type="text"> 
+              <label for="last_name">Last Name *</label>
+              <input maxlength="50" name="last_name" size="40" type="text"> 
+              <label for="email">Email Address *</label> 
+              <input maxlength="80" name="email" size="40" type="text">
+              <label for="telephone">Telephone Number</label> 
+              <input maxlength="40" name="telephone" size="40" type="text"> 
+              <label for="comments">Comments *</label>
+              <textarea cols="40" maxlength="1000" name="comments" rows="5"></textarea>
+              * = required<br>
+              <input class="submit" type="submit" value="Submit »">
+            </form>
+          </section>
 
-        </form>
+        </div> <!-- end form-container -->
       </div>
-
-      <!--      <h1>Block 1</h1>
-            <div class="copy-and-image">
-              <div class="image-block">
-                <img src="./images/contact_phyllis.jpg" alt="picture" >
-              </div>
-              <div id="home-decor" class="copy-block">
-                <div class="small-heading-row">
-                  Weaving Studio and Shop
-                </div>
-                <div class="content-text-block">
-                  <div class="small-heading-row">
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                  <div>
-                  </div>
-                </div>
-              </div>
-            </div>-->
-
 
     </div>
 

@@ -651,20 +651,145 @@ a {
 }
 
 .contact-container {
-  border: 0px solid red;
-  display: flex;
-  flex-direction: column;
-  /*justify-content: flex-start;*/
+  border: 3px solid red;
+  /*display: flex;*/
+/*  flex-direction: row;
+  justify-content: flex-start;
   align-items: flex-start;
-  height: 10000px;
+  height: 10000px;*/
 }
 
 .contact-container {
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+
+.contact-block {
+  /*width: 700px;*/
+  width: 90%;
+  border: 0px solid blue;
+  display: flex;
+  /*justify-content: space-between;*/
+}
+
+@media only screen and (min-width: 900px) {
+  .contact-block {
+    flex-direction: row;
+  }
+  .contact-image {
+    /*width: 80%;*/
+    position: relative;
+    top: 70px;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .contact-block {
+    flex-direction: column;
+  }
+  .contact-container .form-container {
+    padding: 25px;
+  }
+}
+
+
+.contact-block textArea {
+  height: 190px;
+  /*width: 400px;*/
+  width: 100%;
+}
+
+.contact-container .form-container {
+  width: 100%;
+  padding-left: 20px;
+}
+
+.contentBox2a {
+  float: left; 
+  /*width: 48%;*/ 
+  padding: 0; 
+  margin: 0 2% 0 0;
+}
+
+.contentBox2b {
+  float: left; 
+  /*width: 48%;*/ 
+  padding: 0; 
+  margin: 0 0 0 2%;
+}
+
+form.contactform {
+	width: 99%;
+	text-align: center;
+}
+.contactform label {
+	width: 99%;
+	text-align: left;
+	font-style: italic;
+	display: block;
+	margin-bottom: 4px;
+}
+.contactform input {
+	width: 99%;
+	border: 1px #ccc solid;
+	background-color: #f5f5f5;
+	padding: 5px;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.contactform textarea {
+	width: 99%;
+	border: 1px #ccc solid;
+	background-color: #f5f5f5;
+	padding: 5px;
+	resize: none;
+	color: #000000;
+}
+.contactform .submit {
+	width: 100px;
+	margin: 10px 0 20px 0;
+	cursor: pointer;
+	color: #444;
+	font: 16px 'Oswald', Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	padding: 2px 18px;
+	text-decoration: none;
+	background-color: #f8f8f8;
+	background: linear-gradient(#f8f8f8, #d8d8d8);
+	border: solid 1px #d8d8d8;
+	border-radius: 5px;
+}
+.contactform .submit:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #7b88c5;
+	background: linear-gradient(#7b88c5, #435299);
+	border: solid 1px #435299;
+	border-radius: 5px;
+}
+
+.thankyou-container {
+  font-family: "Open Sans";
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.thankyou-text {
+  width: 25%;
+}
+
+.thankyou-phyllis {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .about-container .copy-and-image {
