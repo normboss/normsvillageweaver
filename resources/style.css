@@ -55,7 +55,7 @@ div {
   font-family: Italianno;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
   #about-image {
     background-image: url("../images/about_mobile.jpg");
   }
@@ -67,7 +67,7 @@ div {
   }
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   #about-image {
     background-image: url("../images/about_image.jpg");
   }
@@ -250,7 +250,7 @@ header nav span a {
 }
 
 .sample-weave .copy-block {
-  border: 0px solid red;
+  /*border: 3px solid red;*/
   height: auto;
 }
 
@@ -260,7 +260,7 @@ header nav span a {
 
 .sample-weave .image-block {
   border: 0px solid red;
-  background-color: #F3F4F5;
+  background-color: #E5E6E1;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -442,6 +442,7 @@ header nav span a {
 
 .footer-text-sm {
   /*padding-bottom: 10px;*/
+  padding-left: 20px;
 }
 
 .footer-row-sm1 iframe {
@@ -1197,7 +1198,7 @@ form.contactform {
 }*/
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) {
   .footer-small {
     display: flex;
   }
@@ -1206,7 +1207,7 @@ form.contactform {
   }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 600px) {
   .footer-small {
     display: none;
   }
