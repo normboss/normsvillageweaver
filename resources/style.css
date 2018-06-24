@@ -524,7 +524,8 @@ nav a:hover, .dropdown:hover .dropbtn {
 }
 
 .copy-block a:hover {
-    background-color: #E3E4E5;
+    /*background-color: #E3E4E5;*/
+    font-weight: bold;
 }
 
 .dropdown-content {
