@@ -305,13 +305,17 @@ header nav span a {
 }
 
 .small-heading-row {
-  /*border: 0px solid red;*/
-  font-size: 20px;
+  /*border: 3px solid red;*/
+  font-size: 18px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   color: #4D2E22;
   /*padding-bottom: 25px;*/
 }
+
+/*.small-heading-row h4 {
+  text-align: left;
+}*/
 
 .image-block {
   overflow: hidden;
@@ -629,7 +633,7 @@ a {
 }
 
 .horizontal-copy-and-image {
-  border: 3px solid red;
+  /*border: 3px solid red;*/
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -642,7 +646,7 @@ a {
 }
 
 #home-decor-block1 {
-  height: 800px;
+  height: 900px;
 }
 
 .weave-detail {
@@ -662,7 +666,11 @@ a {
 }
 
 #home-decor-block3 {
-  height: 650px;
+  height: 634px;
+}
+
+#home-decor-block5 {
+  height: 470px;
 }
 
 .description-and-price {
@@ -671,7 +679,26 @@ a {
 }
 
 .home-decor-container {
+  /*border: 3px solid red;*/
   width: 100%;
+}
+
+.decor1-image-box {
+}
+
+.decor1-insert img {
+  position: relative;
+  top: -105px;
+  left: 25px;
+  /*border: 4px solid white;*/
+}
+
+.home-decor-1 {
+  /*border: 3px solid red;*/
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .home-decor-container .image-block {
@@ -707,8 +734,12 @@ a {
   padding-right: 5%;
 }
 
+.home-decor {
+  /*text-align: left;*/
+}
+
 .home-decor-container .copy-block {
-  width: 25%;
+  width: 33%;
   /*border: 0px solid red;*/
   padding-left: 2%;
   padding-right: 2%;
