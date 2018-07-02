@@ -19,27 +19,53 @@ and open the template in the editor.
         $("#footer").load("footer.html");
       });
     </script> 
-    <script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <script>
+      (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+          return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <script type="text/javascript">
+      var myWidth = 0, myHeight = 0;
+      if (typeof (window.innerWidth) == 'number') {
+        myWidth = window.innerWidth;
+        myHeight = window.innerHeight;
+      } else if (document.documentElement && (document.documentElement.clientWidth || document.documentElement.clientHeight)) {
+        myWidth = document.documentElement.clientWidth;
+        myHeight = document.documentElement.clientHeight;
+      } else if (document.body && (document.body.clientWidth || document.body.clientHeight)) {
+        myWidth = document.body.clientWidth;
+        myHeight = document.body.clientHeight;
+      }
+    </script>
 
   </head>
   <body>
 
     <div id="fb-root"></div>
 
-<!--    <div class="banner"></div>
-      <div id="header-image">
-        Hand woven with love
-      </div>
-    <div id="main-menu" class="home"></div>-->
+    <!--    <div class="banner"></div>
+          <div id="header-image">
+            Hand woven with love
+          </div>
+        <div id="main-menu" class="home"></div>-->
 
     <div class="banner">
-      <span class="text1">Maine Village Weaver</span><span class="text2"></span>
+
+      <span class="text1 display-size">
+        <span>
+          <script type="text/javascript">
+            document.write(myWidth);
+          </script>
+        </span>
+        Maine Village Weaver
+      </span>
+      <span class="text2"></span>
     </div>
     <div id="header-image">
       Hand woven with love
@@ -47,39 +73,44 @@ and open the template in the editor.
 
     <div id="main-menu" class="home"></div>
 
-    
+
     <div class="statement-parent">
       <div class="statement">
         <i>
-"Weaving is my passion. Each piece is woven by hand right here in my studio."  
+          "Weaving is my passion. Each piece is woven by hand right here in my studio."  
         </i>
       </div>
       <div class="signature">Phyllis Leck</div>
     </div>
-    
+
+
+    <!--
+        FULL SIZE PAGE
+    -->
+
     <div class="index-container">
 
       <!--
         SHAWLS
       -->
-      
+
       <div class="copy-and-image">
         <div id="shawls" class="copy-block">
-            <a href="shawls.html">
-              <div class="link-block">
-                <div class="heading-rows">
-                  <div class="heading-row">
-                    Shawls
-                  </div>
-                  <div  id="appersand" class="heading-row">
-                    &
-                  </div>
-                  <div class="heading-row">
-                    Scarfs
-                  </div>
+          <a href="shawls.html">
+            <div class="link-block">
+              <div class="heading-rows">
+                <div class="heading-row">
+                  Shawls
+                </div>
+                <div  id="appersand" class="heading-row">
+                  &
+                </div>
+                <div class="heading-row">
+                  Scarfs
                 </div>
               </div>
-           </a>
+            </div>
+          </a>
         </div>
         <div class="image-block">
           <a href="shawls.html">
@@ -91,49 +122,49 @@ and open the template in the editor.
       <div class="copy-and-image">
         <div id="home-decor" class="copy-block">
           <!--<div class="icon-button">-->
-            <a href="home-decor.html">
-<!--              <div class="heading-row">
-                Curtains
-              </div>
-              <div class="heading-row">
-                &
-              </div>-->
-              <div class="link-block">
-                <div class="heading-rows">
-                  <div class="heading-row">
-                    Home 
-                  </div>
-                  <div class="heading-row">
-                    Decor
-                  </div>
+          <a href="home-decor.html">
+            <!--              <div class="heading-row">
+                            Curtains
+                          </div>
+                          <div class="heading-row">
+                            &
+                          </div>-->
+            <div class="link-block">
+              <div class="heading-rows">
+                <div class="heading-row">
+                  Home 
+                </div>
+                <div class="heading-row">
+                  Decor
                 </div>
               </div>
-            </a>
+            </div>
+          </a>
           <!--</div>-->
         </div>
         <div class="image-block">
-            <a href="home-decor.html">
-              <img src="./images/decor_mobile.jpg" alt="picture" >
-            </a>
+          <a href="home-decor.html">
+            <img src="./images/decor_mobile.jpg" alt="picture" >
+          </a>
         </div>
       </div>
-      
+
       <div class="copy-and-image">
         <!--<div id="decorative" class="copy-block dropbtn">-->
         <div class="copy-block">
           <!--<div class="icon-button">-->
-            <a href="https://www.etsy.com/shop/mainevillageweaver">
-              <div class="link-block">
-                <div class="heading-rows">
-                  <div class="heading-row">
-                    Shop
-                  </div>
-                  <div class="heading-row">
-                    Etsy 
-                  </div>
+          <a href="https://www.etsy.com/shop/mainevillageweaver">
+            <div class="link-block">
+              <div class="heading-rows">
+                <div class="heading-row">
+                  Shop
+                </div>
+                <div class="heading-row">
+                  Etsy 
                 </div>
               </div>
-            </a>
+            </div>
+          </a>
         </div>
         <div class="image-block">
           <a href="https://www.etsy.com/shop/mainevillageweaver">
@@ -141,6 +172,42 @@ and open the template in the editor.
           </a>
         </div>
       </div>
+
+    </div>
+
+
+    <!--
+        MOBILE SIZE PAGE
+    -->
+
+    <div class="index-container-mobile">
+
+      <!--
+        SHAWLS
+      -->
+      
+      <a href="shawls.html">
+        <div id="index-mobile-shawls">
+          <div>Shawls</div>
+          <div>&</div>
+          <div>Scarfs</div>
+        </div>
+      </a>
+      
+      <a href="home-decor.html">
+        <div id="index-mobile-decor">
+          <div>Home</div>
+          <div>Decor</div>
+        </div>
+      </a>
+      
+      <a href="https://www.etsy.com/shop/mainevillageweaver">
+        <div id="index-mobile-etsy">
+          <div>Shop</div>
+          <div>Etsy</div>
+        </div>
+      </a>
+
 
     </div>
 

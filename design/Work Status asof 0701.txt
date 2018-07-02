@@ -1,0 +1,30 @@
+
+The header is all set.
+
+Navigation for the mobile screens needs to be condensed: design file  -
+navigation_mobile.design
+
+The about page is close I just added an image of shuttles to the designs of both mobile and full size.
+about_full_6_28.design
+about_mobile_6_28.design
+
+( I got some outlines on the different blocks of copy that weren't there before last time I checked the about page)
+
+the index looks great (one more redo on the decor image for the mobile).
+(not sure we want to put big color change on the hypertext - it may be fine as is)
+
+Shawls and scarfs needs to have more items added and details of weaving were placed inside the photo of item. hmmmm if this is difficult to do I can do this on my end and send you integrated images.
+Let me know.
+  See files:
+shawls_mobile_1_6_26.design 
+shawls_mobile_2_6_25.design
+shawls_mobile3_6_25.design
+
+shawls_scarfs_0620b.design
+
+Home decor needs some tweaks. 
+decor_mobile_6_26.design
+
+Footer adding one line: "Custom Orders" as hypertext linked to the contact page. 
+footer_6_30.design
+-- 

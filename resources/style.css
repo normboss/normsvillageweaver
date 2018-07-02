@@ -15,6 +15,10 @@ Berkshire Swash
 @import url('https://fonts.googleapis.com/css?family=Italianno');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
+html {
+  font-size: 1rem /*16px*/;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans';
@@ -35,7 +39,8 @@ div {
   background-size: cover;
   color: white;
   font-weight: bold;
-  font-size: 60px;
+  /*font-size: 3.75rem /*60px*/;*/
+  font-size: 3.75rem;
   font-family: Italianno;
   width: 100%;
 }
@@ -51,7 +56,7 @@ div {
   background-size: cover;
   color: white;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 3.75rem /*60px*/;
   font-family: Italianno;
 }
 
@@ -60,10 +65,10 @@ div {
     background-image: url("../images/about_mobile.jpg");
   }
   .text1 {
-    font-size: 50px;
+    font-size: 3.125rem /*50px*/;
   }
   .text2 {
-    font-size: 20px;
+    font-size: 1.25rem /*20px*/;
   }
 }
 
@@ -72,10 +77,10 @@ div {
     background-image: url("../images/about_image.jpg");
   }
   .text1 {
-    font-size: 80px;
+    font-size: 5rem /*80px*/;
   }
   .text2 {
-    font-size: 40px;
+    font-size: 2.5rem /*40px*/;
   }
 }
 
@@ -92,7 +97,7 @@ div {
   background-size: cover;
   color: #7D4628;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 3.75rem /*60px*/;
   font-family: Italianno;
   width: 100%;
 }
@@ -100,7 +105,6 @@ div {
 .banner {
   width: 100%;
   font-family: Italianno;
-  /*font-size: 80px;*/
   font-weight: bold;
   color: #7D4628;
   text-align: left;
@@ -113,7 +117,7 @@ div {
 .banner .text1 {
   /*width: 60%;*/
   /*font-family: Italianno;*/
-  /*font-size: 80px;*/
+  /*font-size: 5rem 80px;*/
   font-weight: bold;
   color: #7D4628;
   text-align: left;
@@ -127,7 +131,7 @@ div {
   /* solid red;*/
   color: #480F06;
   font-family: "OPen Sans", 'Arial BOld';
-  /*font-size: 40px;*/
+  /*font-size: 2.5rem 40px;*/
   text-align: right;
   /*padding-top: 10px;*/
   padding-left: 100px;
@@ -136,7 +140,7 @@ div {
 
 
 nav { 
-  /*#4D2E22*/
+/*  #4D2E22
   background: #4D2E22;
   font-family: verdana;
   color: white;
@@ -147,28 +151,52 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   
 }
 
 header nav {
   display: flex;
-  justify-content: space-around;
   background-color: #4D2E22;
 }
 
+
+@media only screen and (max-width: 525px) {
+  header nav {
+    /*padding-right: 20px;*/
+    justify-content: flex-start;
+  }
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 525px) {
+  header nav {
+    justify-content: space-around;
+  }
+}
+
 header nav span a {
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
   color: white;
 }
 
 .menu-item {
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
   color: white;
 }
 
+.menu-item form {
+/*  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;*/
+  padding-top: 12px;
+}
+
 .dropdown-item {
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
   color: black;
 }
 
@@ -189,7 +217,7 @@ header nav span a {
   font-family: "Times New Roman", Times, serif;
   padding: 40px 50px 0px 50px;
   height: auto;
-  font-size: 22px;
+  font-size: 1.375rem /*22px*/;
   text-align: left;
   width: 50%;
 /*  display: flex;
@@ -201,7 +229,7 @@ header nav span a {
   width: 40%;
   padding-top: 0px;
   height: auto;
-  font-size: 22px;
+  font-size: 1.375rem /*22px*/;
   text-align: right;
 /*  display: flex;
   justify-content: center;*/
@@ -294,14 +322,14 @@ header nav span a {
   font-family: "Open Sans";
   color: #000000;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 2.5rem /*40px*/;
 }
   
 .content-text-block {
   /*width: 125%;*/
   width: 100%;
   /*border: 0px solid red;*/
-  font-size: 15px;
+  font-size: 0.9375rem /*15px*/;
 }
 
 .heading-row {
@@ -311,7 +339,7 @@ header nav span a {
 
 .small-heading-row {
   /*border: 3px solid red;*/
-  font-size: 18px;
+  font-size: 1.125rem /*18px*/;
   font-weight: bold;
   text-align: left;
   color: #4D2E22;
@@ -353,12 +381,12 @@ header nav span a {
 }
 
 .shopping-blocks p {
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
 }
 
 .footer-large {
   font-family: verdana;
-  font-size: 12px;
+  font-size: 0.75rem /*12px*/;
   color: #FFFFFF;
   width: 100%;
   height: 250px;
@@ -391,7 +419,7 @@ header nav span a {
 
 #footer-stuff .main-weaver {
   font-family: "Italianno";
-  font-size: 25px;
+  font-size: 1.5625rem /*25px*/;
 }
 
 #footer-stuff img {
@@ -409,7 +437,7 @@ header nav span a {
 }
 
 .phone-number-title {
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
   font-weight: bold;
 }
 
@@ -422,7 +450,7 @@ header nav span a {
 
 .footer-small {
   font-family: verdana;
-  font-size: 12px;
+  font-size: 0.75rem /*12px*/;
   color: #FFFFFF;
   width: 100%;
   height: 280px;
@@ -440,7 +468,7 @@ header nav span a {
 
 .title-sm {
   font-family: Italianno;
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
   display: flex;
   justify-content: center;
 }
@@ -482,14 +510,14 @@ header nav span a {
 }
 
 nav {
-    overflow: hidden;
+    /*overflow: hidden;*/
     background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 1rem /*16px*/;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -498,7 +526,7 @@ nav {
 
 nav a {
     float: left;
-    font-size: 16px;
+    font-size: 1rem /*16px*/;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -506,15 +534,16 @@ nav a {
 }
 .dropdown {
     float: left;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;    
+    font-size: 1rem /*16px*/;    
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    /*padding: 14px 16px;*/
+    padding-top: 14px;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -533,7 +562,7 @@ nav a:hover, .dropdown:hover .dropbtn {
     /*background-color: #E3E4E5;*/
     font-weight: bold;
     /*font-style: oblique;*/
-    font-size: 48px;
+    font-size: 3rem /*48px*/;
 }
 
 .dropdown-content {
@@ -584,7 +613,7 @@ a {
 .footer-text .title h2 {
   /*border: 0px solid red;*/
   font-family: Italianno;
-  font-size: 30px;
+  font-size: 1.875rem /*30px*/;
 }
 
 .home-decor-header {
@@ -966,7 +995,7 @@ form.contactform {
 
 .thankyou-container {
   font-family: "Open Sans";
-  font-size: 20px;
+  font-size: 1.25rem /*20px*/;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1090,7 +1119,7 @@ form.contactform {
 }
 
 .contact-container li {
-  font-size: 22px;
+  font-size: 1.375rem /*22px*/;
 }
 
 .contact-container li span {
@@ -1105,7 +1134,7 @@ form.contactform {
   /*border: 0px solid white;*/
   /*height: 50px;*/
   /*line-height: 60%;*/
-  font-size: 50px;
+  font-size: 3.125rem /*50px*/;
 }
 
 .footer-text {
@@ -1115,7 +1144,7 @@ form.contactform {
 
 .footer-text .Phyllis-Leck {
   font-weight: normal;
-  font-size: 15px;
+  font-size: 0.9375rem /*15px*/;
   position: relative;
   top: -25px;
   left: 0px;
@@ -1196,14 +1225,10 @@ form.contactform {
 }*/
 
 .bottom-copy-block {
-  /*border: 0px solid red;*/
   height: 200px;
 }
 
 .about-mobile-block {
-  /*border: 0px solid red;*/
-  /*width: 80%;*/
-  /*padding-bottom: 50px;*/
   background-color: #F3F4F5;
 }
 
@@ -1213,67 +1238,8 @@ form.contactform {
   padding: 0 50px 0 50px;
 }
 
-/*.about-mobile-text2 {
-  border: 0px solid blue;
-  padding: 10px;
-  width: 70%;
-}*/
-
-/*.about-mobile-block1a {
-  border: 0px solid yellow;
-  width: 70%;
-  height: 220px;
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-}*/
-
-/*.about-mobile-block1 {
-  border: 0px solid blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}*/
-
-/*.about-mobile-block2 {
-  border: 0px solid red;
-  width: 80%;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}*/
-
-/*.about-mobile-block2 img {
-  width: 400px;
-  height: auto;
-}*/
-
-/*.about-mobile-text2 {
-  padding: 0 40px 0 40px;
-}*/
-
-/*.about-mobile-block3, .about-mobile-block2, .about-mobile-block3 {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #F3F4F5;
-  padding-top: 50px;
-}*/
-
-.about-mobile-block3 {
-  /*padding-top: 50px;*/
-}
 
 .about-container-mobile {
-  /*border: 0px solid blue;*/
-  /*width: 100%;*/
-  /*display: flex;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1283,7 +1249,6 @@ form.contactform {
   border: 0px solid red;
   background-color: #F3F4F5;
   width: 80%;
-  /*padding-bottom: 100px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1293,23 +1258,18 @@ form.contactform {
   height: 30px;
 }
 
-/*.about-mobile-block2a {
-  width: 70%;
-  display: flex;
-  flex-direction: row;
-}*/
-
-/*.about-mobile-text3 {
-  padding-left: 10px;
-}*/
-
-
 @media only screen and (max-width: 600px) {
   .footer-small {
     display: flex;
   }
   .footer-large {
     display: none;
+  }
+  .index-container {
+    display: none;
+  }
+  .index-container-mobile {
+    display: flex;
   }
 }
 
@@ -1320,6 +1280,45 @@ form.contactform {
   .footer-large {
     display: flex;
   }
+  .index-container {
+    display: flex;
+  }
+  .index-container-mobile {
+    display: none;
+  }
+}
+
+.index-container-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.index-container-mobile a {
+  padding-bottom: 50px;
+}
+
+#index-mobile-shawls {
+  height: 500px;
+  width: 300px;
+  background-image: url("../images/shawl_knot.jpg");
+}
+
+#index-mobile-decor {
+  height: 500px;
+  width: 300px;
+  background-image: url("../images/decor_mobile.jpg");
+}
+
+#index-mobile-etsy {
+  height: 500px;
+  width: 300px;
+  background-image: url("../images/table_runner2.jpg");
 }
 
 
