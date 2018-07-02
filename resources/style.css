@@ -655,9 +655,6 @@ a {
   
 }
 
-.shawls-container .copy-and-image {
-}
-
 .shawls-container home-decor-container {
   .copy-and-image {
       border: 3px solid red;
@@ -1271,6 +1268,17 @@ form.contactform {
   .index-container-mobile {
     display: flex;
   }
+  .shawls-container {
+    display: flex;
+  }
+  .shawls-container-mobile {
+    display: none;
+  }
+  .shawls-container .copy-and-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -1284,6 +1292,12 @@ form.contactform {
     display: flex;
   }
   .index-container-mobile {
+    display: none;
+  }
+  .shawls-container {
+    display: flex;
+  }
+  .shawls-container-mobile {
     display: none;
   }
 }
