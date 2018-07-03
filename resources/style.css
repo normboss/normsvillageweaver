@@ -242,7 +242,7 @@ header nav span a {
 .index-container {
   font-family: 'Italianno', cursive;
   width: 100%;
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1303,7 +1303,7 @@ form.contactform {
 }
 
 .index-container-mobile {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: center;
   align-items: center;
