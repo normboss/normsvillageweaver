@@ -785,20 +785,28 @@ a {
   width: 25%;
 }
 
-.shawls-container .copy-block,.sample-weave-text {
+/*.shawls-container {
   border: 3px solid red;
-  /*width: 20%;*/
-  /*border: 0px solid red;*/
+  width: 20%;
+  border: 0px solid red;
+  padding-left: 5%;
+  padding-right: 5%;
+}*/
+
+.shawls-copy-block {
+  width: 45%;
+  border: 3px solid red;
   padding-left: 5%;
   padding-right: 5%;
 }
 
-.shawls-container-mobile .copy-block {
-  width: 43%;
-  /*border: 0px solid red;*/
+/*.shawls-container .copy-block {
+  border: 3px solid red;
+  width: 20%;
+  border: 0px solid red;
   padding-left: 5%;
   padding-right: 5%;
-}
+}*/
 
 .home-decor {
   /*text-align: left;*/
@@ -1102,8 +1110,8 @@ form.contactform {
 }
 
 .about-container .copy-block {
-  /*height: 400px;*/
-  /*border: 0px solid red;*/
+  height: 400px;
+  border: 0px solid red;
   width: 50%;
 }
 
